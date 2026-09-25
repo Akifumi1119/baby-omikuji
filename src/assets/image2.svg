@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 440">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#5c2200"/>
+      <stop offset="100%" stop-color="#2a0d00"/>
+    </linearGradient>
+    <radialGradient id="face2" cx="45%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#fddbb8"/>
+      <stop offset="100%" stop-color="#e8a870"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="340" height="440" fill="url(#bg2)"/>
+  <rect x="12" y="12" width="316" height="416" rx="10" fill="none" stroke="rgba(200,151,58,0.45)" stroke-width="1.5"/>
+
+  <!-- Ears -->
+  <ellipse cx="72" cy="192" rx="22" ry="26" fill="#fddbb8"/>
+  <ellipse cx="268" cy="192" rx="22" ry="26" fill="#fddbb8"/>
+  <ellipse cx="72" cy="192" rx="13" ry="16" fill="#e8a870"/>
+  <ellipse cx="268" cy="192" rx="13" ry="16" fill="#e8a870"/>
+
+  <!-- Head -->
+  <circle cx="170" cy="188" r="100" fill="url(#face2)"/>
+
+  <!-- Hair -->
+  <path d="M70 170 Q82 88 170 84 Q258 88 270 170 Q252 108 170 106 Q88 108 70 170z" fill="#3a1e08"/>
+  <path d="M185 86 Q188 70 184 60" stroke="#3a1e08" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyebrows: furrowed – inner ends angled DOWN -->
+  <path d="M124 160 Q140 167 158 162" stroke="#5a3010" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M182 162 Q200 167 216 160" stroke="#5a3010" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyes: slightly squinted with discomfort, open with pupils -->
+  <!-- Left eye -->
+  <ellipse cx="143" cy="183" rx="17" ry="11" fill="white"/>
+  <circle cx="143" cy="184" r="7" fill="#2a1008"/>
+  <circle cx="146" cy="181" r="2" fill="white"/>
+  <ellipse cx="143" cy="183" rx="17" ry="11" fill="none" stroke="#2a1008" stroke-width="2"/>
+  <!-- Squint line top -->
+  <path d="M126 181 Q143 175 160 181" stroke="#2a1008" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Right eye -->
+  <ellipse cx="197" cy="183" rx="17" ry="11" fill="white"/>
+  <circle cx="197" cy="184" r="7" fill="#2a1008"/>
+  <circle cx="200" cy="181" r="2" fill="white"/>
+  <ellipse cx="197" cy="183" rx="17" ry="11" fill="none" stroke="#2a1008" stroke-width="2"/>
+  <path d="M180 181 Q197 175 214 181" stroke="#2a1008" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <circle cx="161" cy="213" r="4" fill="rgba(160,80,40,0.28)"/>
+  <circle cx="179" cy="213" r="4" fill="rgba(160,80,40,0.28)"/>
+  <path d="M163 216 Q170 222 177 216" stroke="#c07848" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Mouth: downturned frown (inverted U) -->
+  <path d="M144 250 Q170 232 196 250" stroke="#b06038" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <!-- Corner dips -->
+  <path d="M144 250 Q140 255 143 260" stroke="#b06038" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M196 250 Q200 255 197 260" stroke="#b06038" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Wrinkle between eyebrows -->
+  <path d="M165 170 Q170 164 175 170" stroke="#c07848" stroke-width="1.5" fill="none" opacity="0.5"/>
+
+  <line x1="40" y1="346" x2="300" y2="346" stroke="rgba(200,151,58,0.4)" stroke-width="1"/>
+  <text x="170" y="396" text-anchor="middle" font-family="Hiragino Mincho ProN, Yu Mincho, serif" font-size="38" fill="#f5c842" letter-spacing="14">苦味</text>
+  <text x="170" y="422" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="rgba(200,151,58,0.55)" letter-spacing="6">BITTER</text>
+</svg>

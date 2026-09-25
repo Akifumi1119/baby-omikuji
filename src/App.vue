@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { ref } from "vue";
-import img0 from "./assets/image0.jpeg";
-import img1 from "./assets/image1.jpeg";
-import img2 from "./assets/image2.jpeg";
-import img3 from "./assets/image3.jpeg";
+import img0 from "./assets/image0.svg";
+import img1 from "./assets/image1.svg";
+import img2 from "./assets/image2.svg";
+import img3 from "./assets/image3.svg";
 
 const images = [img0, img1, img2, img3];
 const revealed = ref(false);
@@ -22,8 +22,6 @@ function draw() {
     revealed.value = true;
   }, 600);
 }
-
-
 </script>
 
 <template>
@@ -54,13 +52,11 @@ function draw() {
         </transition>
       </div>
 
-      <div class="actions">
-        <button v-if="!revealed" class="btn btn--draw" @click="draw">
+      <div v-if="revealed" class="actions">
+        <!-- <button v-if="!revealed" class="btn btn--draw" @click="draw">
           <span class="btn-text">今日の運勢を見る</span>
-        </button>
-        <button v-else class="btn btn--retry" @click="draw">
-          もう一度引く
-        </button>
+        </button> -->
+        <button class="btn btn--retry" @click="draw">もう一度引く</button>
       </div>
     </main>
 

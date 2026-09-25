@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 440">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#5c2200"/>
+      <stop offset="100%" stop-color="#2a0d00"/>
+    </linearGradient>
+    <radialGradient id="face1" cx="45%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#fddbb8"/>
+      <stop offset="100%" stop-color="#e8a870"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="340" height="440" fill="url(#bg1)"/>
+  <rect x="12" y="12" width="316" height="416" rx="10" fill="none" stroke="rgba(200,151,58,0.45)" stroke-width="1.5"/>
+
+  <!-- Ears -->
+  <ellipse cx="72" cy="192" rx="22" ry="26" fill="#fddbb8"/>
+  <ellipse cx="268" cy="192" rx="22" ry="26" fill="#fddbb8"/>
+  <ellipse cx="72" cy="192" rx="13" ry="16" fill="#e8a870"/>
+  <ellipse cx="268" cy="192" rx="13" ry="16" fill="#e8a870"/>
+
+  <!-- Head -->
+  <circle cx="170" cy="188" r="100" fill="url(#face1)"/>
+
+  <!-- Hair -->
+  <path d="M70 170 Q82 88 170 84 Q258 88 270 170 Q252 108 170 106 Q88 108 70 170z" fill="#3a1e08"/>
+  <path d="M155 88 Q152 72 157 62" stroke="#3a1e08" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyebrows: slightly raised/curious -->
+  <path d="M125 153 Q143 144 161 151" stroke="#5a3010" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M179 151 Q197 144 215 153" stroke="#5a3010" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyes: half-lidded satisfied, with visible pupils -->
+  <!-- Left eye white -->
+  <ellipse cx="143" cy="180" rx="18" ry="13" fill="white"/>
+  <!-- Left upper lid covering top -->
+  <path d="M125 178 Q143 170 161 178" fill="#e8a870" stroke="none"/>
+  <!-- Left pupil -->
+  <circle cx="143" cy="182" r="8" fill="#2a1008"/>
+  <circle cx="146" cy="179" r="2.5" fill="white"/>
+  <!-- Left outline -->
+  <ellipse cx="143" cy="180" rx="18" ry="13" fill="none" stroke="#2a1008" stroke-width="2"/>
+  <path d="M125 178 Q143 170 161 178" stroke="#2a1008" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Right eye white -->
+  <ellipse cx="197" cy="180" rx="18" ry="13" fill="white"/>
+  <!-- Right upper lid covering top -->
+  <path d="M179 178 Q197 170 215 178" fill="#e8a870" stroke="none"/>
+  <!-- Right pupil -->
+  <circle cx="197" cy="182" r="8" fill="#2a1008"/>
+  <circle cx="200" cy="179" r="2.5" fill="white"/>
+  <!-- Right outline -->
+  <ellipse cx="197" cy="180" rx="18" ry="13" fill="none" stroke="#2a1008" stroke-width="2"/>
+  <path d="M179 178 Q197 170 215 178" stroke="#2a1008" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <circle cx="161" cy="211" r="4" fill="rgba(160,80,40,0.28)"/>
+  <circle cx="179" cy="211" r="4" fill="rgba(160,80,40,0.28)"/>
+  <path d="M163 214 Q170 220 177 214" stroke="#c07848" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Mouth: wide satisfied smile, slightly open -->
+  <path d="M142 236 Q170 260 198 236" stroke="#b06038" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M148 242 Q170 256 192 242" fill="rgba(160,70,50,0.25)" stroke="none"/>
+
+  <!-- Cheeks subtle -->
+  <ellipse cx="112" cy="216" rx="25" ry="15" fill="#ff7070" opacity="0.22"/>
+  <ellipse cx="228" cy="216" rx="25" ry="15" fill="#ff7070" opacity="0.22"/>
+
+  <!-- Sparkle -->
+  <text x="82" y="155" font-size="18" fill="rgba(245,200,66,0.7)">✦</text>
+  <text x="244" y="150" font-size="14" fill="rgba(245,200,66,0.6)">✦</text>
+
+  <line x1="40" y1="346" x2="300" y2="346" stroke="rgba(200,151,58,0.4)" stroke-width="1"/>
+  <text x="170" y="396" text-anchor="middle" font-family="Hiragino Mincho ProN, Yu Mincho, serif" font-size="34" fill="#f5c842" letter-spacing="10">うま味</text>
+  <text x="170" y="422" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="rgba(200,151,58,0.55)" letter-spacing="6">UMAMI</text>
+</svg>
